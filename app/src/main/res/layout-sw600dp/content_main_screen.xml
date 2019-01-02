@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main_screen"
+        tools:context=".MainScreen">
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="36sp"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentTop="true"
+              android:layout_marginTop="102dp"
+              android:id="@+id/resultText"
+
+
+              android:textColor="@color/colorPrimary"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="30sp"
+
+              android:layout_centerHorizontal="true"
+              android:id="@+id/result"
+              android:layout_alignParentTop="true" android:layout_marginTop="150dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="(Nothing to show)"
+              android:layout_centerInParent="true"
+              android:id="@+id/nothingToShowView"
+              android:textSize="36sp"
+              android:textColor="@color/colorPrimary"
+    />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="36sp"
+              android:layout_centerHorizontal="true"
+              android:id="@+id/interpretationText"
+
+              android:textColor="@color/colorPrimary"
+              android:layout_alignParentBottom="true" android:layout_marginBottom="179dp"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="30sp"
+              android:layout_centerHorizontal="true"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="137dp"
+              android:id="@+id/interpretation"
+
+    />
+
+
+</RelativeLayout>

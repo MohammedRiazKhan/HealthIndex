@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">healthIndex</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">healthIndex</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutPageTextHeading">HealthIndex</string>
+    <string name="a_simple_body_mass_index_calculator_which_provides_custom_health_information_based_on_the_result_simpl">
+        A Simple Body Mass Index Calculator which provides custom health information based on the result, simply enter your
+
+        Height and weight
+        then click calculate. Your Body Mass Index will be determined along wth its interpretation along with it. A diet and Exercise plan will
+        then be generated based on the result.
+    </string>
+    <string name="disclaimer">This app is for educational purposes and was designed as a android project, the advice in
+        this app should not be taken as medial advice. consult yout GP before doing any of these exercises
+    </string>
+    <string name="credit">Icon credits goes to flaticon.com</string>
+</resources>

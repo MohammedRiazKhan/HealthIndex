@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/diet"
+                android:icon="@drawable/ic_meat"
+                android:title="Diet"/>
+        <item
+                android:id="@+id/workout"
+                android:icon="@drawable/run"
+                android:title="Workout"/>
+        <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="About"/>
+
+        <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help"/>
+
+        <item
+                android:id="@+id/save"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Save BMI to text"/>
+
+     </group>
+
+
+</menu>
